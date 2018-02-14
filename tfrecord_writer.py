@@ -1,6 +1,5 @@
 # from http://www.machinelearninguru.com/deep_learning/tensorflow/basics/tfrecord/tfrecord.html
 
-
 from random import shuffle
 import glob
 import numpy as np
