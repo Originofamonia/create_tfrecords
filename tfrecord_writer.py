@@ -74,7 +74,7 @@ writer = tf.python_io.TFRecordWriter(train_filename)
 for i in range(len(train_addrs)):
     # print how many images are saved every 1000 images
     if not i % 1000:
-        print 'Train data: {}/{}'.format(i, len(train_addrs))
+        print('Train data: {}/{}'.format(i, len(train_addrs)))
         sys.stdout.flush()
 
     # load the image
@@ -104,7 +104,7 @@ writer = tf.python_io.TFRecordWriter(val_filename)
 for i in range(len(val_addrs)):
     # print how many images are saved every 1000 images
     if not i % 1000:
-        print 'Val data: {}/{}'.format(i, len(val_addrs))
+        print('Val data: {}/{}'.format(i, len(val_addrs)))
         sys.stdout.flush()
 
     # load the image
@@ -134,7 +134,7 @@ writer = tf.python_io.TFRecordWriter(test_filename)
 for i in range(len(test_addrs)):
     # print how many images are saved every 1000 images
     if not i % 1000:
-        print 'Test data: {}/{}'.format(i, len(test_addrs))
+        print('Test data: {}/{}'.format(i, len(test_addrs)))
         sys.stdout.flush()
 
     # load the image
