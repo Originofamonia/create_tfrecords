@@ -1,1 +1,1 @@
-# test_tfrecord
+# create and restore tfrecords
